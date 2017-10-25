@@ -21,7 +21,7 @@
 </head>
 <body>
   <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
-  <header class="site-header clearfix">
+  <header class="site-header clearfix kilovolt-header">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- Clearfix is used to apply clear to descendant elements under a parent via CSS in a clear, minimal way, rather than using clunkier HTML or other CSS hacks that may do more than intended.-->
 
@@ -33,14 +33,13 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-      <div class="icon-menu">
+      <div class="switch"></div>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
         <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
-      </div>
     </nav>
   </header>
   <main>
